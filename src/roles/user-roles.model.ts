@@ -19,7 +19,7 @@ export class UserRoles extends Model<UserRoles> {
     @ApiProperty({example: 'Администратор', description: 'Описание'})
     @ForeignKey(() => User)
     @Column({type: DataType.INTEGER})
-    userId: string;
+    userId: number;
 }
 
 
