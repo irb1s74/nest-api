@@ -3,7 +3,6 @@ import {InjectModel} from "@nestjs/sequelize";
 import {User} from "./users.model";
 import {CreateUserDto} from "./dto/create-user.dto";
 import {RolesService} from 'src/roles/roles.service';
-import {all} from 'sequelize/types/lib/operators';
 import {AddRoleDto} from "./dto/add-role.dto";
 import {BanUserDto} from "./dto/ban-user.dto";
 
